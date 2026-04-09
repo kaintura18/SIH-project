@@ -1,6 +1,6 @@
 fastapi[standard]
 sqlalchemy
-postgresql
+#postgresql
 psycopg2-binary
 passlib[bcrypt]
 jose
