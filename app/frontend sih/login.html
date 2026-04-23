@@ -34,7 +34,7 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 8h14M5 12h10M5 16h14" />
         </svg>
-        <select aria-label="Select language">
+        <select name="language" aria-label="Select language" autocomplete="language">
           <option value="en">English</option>
           <option value="hi">हिन्दी</option>
         </select>
@@ -49,9 +49,9 @@
       <h1 class='h1' data-i18n="welcome">Welcome back</h1>
       <div class='helper' data-i18n="loginSubtitle">Log in to access the on-spot assessment tool.</div>
       <input class='input' id='email' name='email' type='email' placeholder='Email' data-i18n-placeholder="emailPh"
-        required />
+        required autocomplete="email" />
       <input class='input' id='password' name='password' type='password' placeholder='Password'
-        data-i18n-placeholder="passwordPh" required />
+        data-i18n-placeholder="passwordPh" required autocomplete="current-password" />
       <button class='btn brand' type='submit' data-i18n="loginBtn">LOGIN</button>
       <div class='flash' id='flash'></div>
 

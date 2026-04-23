@@ -13,10 +13,12 @@ class UserCreate(BaseModel):
 
 
 class UserOut(BaseModel):
+    id: int
+    name: str
     email: EmailStr
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class UserLogin(BaseModel):

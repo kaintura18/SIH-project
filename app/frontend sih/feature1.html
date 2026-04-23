@@ -192,16 +192,16 @@
   <div class="input-box">
     <form id="featureForm">
       <label for="name">Name</label>
-      <input type="text" id="name" required>
+      <input type="text" id="name" name="name" required autocomplete="name">
 
       <label for="location">Location</label>
-      <input type="text" id="location" required>
+      <input type="text" id="location" name="location" required autocomplete="address-level2">
 
       <label for="roof">Roof Area (m²)</label>
-      <input type="number" id="roof" required>
+      <input type="number" id="roof" name="roof_area" required autocomplete="off">
 
       <label for="open">Open Space (m²)</label>
-      <input type="number" id="open" required>
+      <input type="number" id="open" name="open_space" required autocomplete="off">
 
       <button type="submit">SUBMIT</button>
     </form>
@@ -219,7 +219,7 @@
 
     <div class="buttons">
       <button class="next" onclick="window.location.href='feature2.html'">Go to Cost Estimation</button>
-      <button class="back" onclick="window.location.href='previous.html'">Back</button>
+      <button class="back" onclick="window.location.href='feature.html'">Back</button>
     </div>
   </div>
 

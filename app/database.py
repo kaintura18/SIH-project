@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 #SQLALCHEMY_DB_URL= 'postgresql://<username>:<password>@ip-address/hostname>/<databasename>'
 
 #SQLALCHEMY_DB_URL= 'postgresql://postgres:22441084@localhost/rainwise_db'
-SQLALCHEMY_DB_URL='postgresql://postgres:22441084@localhost:5432/rainwise_db'
+SQLALCHEMY_DB_URL='postgresql://postgres:aditya%40123@localhost:5432/postgres'
 
 
 engine=create_engine(SQLALCHEMY_DB_URL)

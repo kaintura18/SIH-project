@@ -21,7 +21,7 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M5 8h14M5 12h10M5 16h14" />
         </svg>
-        <select aria-label="Select language">
+        <select name="language" aria-label="Select language" autocomplete="language">
           <option value="en">English</option>
           <option value="hi">हिन्दी</option>
         </select>
@@ -33,11 +33,11 @@
     <form class='auth-card form' id='signupForm' autocomplete='on'>
       <h1 class='h1' data-i18n="createTitle">Create your account</h1>
       <div class='helper' data-i18n="signupSubtitle">Sign up to start assessing rainwater harvesting potential.</div>
-      <input class='input' id='sname' name='name' type='text' placeholder='Full name' data-i18n-placeholder="namePh" required />
-      <input class='input' id='semail' name='email' type='email' placeholder='Email' data-i18n-placeholder="emailPh" required />
+      <input class='input' id='sname' name='name' type='text' placeholder='Full name' data-i18n-placeholder="namePh" required autocomplete="name" />
+      <input class='input' id='semail' name='email' type='email' placeholder='Email' data-i18n-placeholder="emailPh" required autocomplete="email" />
       <div class='row'>
-        <input class='input' id='spassword' name='password' type='password' placeholder='Password (6+ chars)' data-i18n-placeholder="passwordPh2" required />
-        <input class='input' id='scpassword' name='confirm' type='password' placeholder='Confirm password' data-i18n-placeholder="confirmPh" required />
+        <input class='input' id='spassword' name='password' type='password' placeholder='Password (6+ chars)' data-i18n-placeholder="passwordPh2" required autocomplete="new-password" />
+        <input class='input' id='scpassword' name='confirm' type='password' placeholder='Confirm password' data-i18n-placeholder="confirmPh" required autocomplete="new-password" />
       </div>
       <button class='btn brand' type='submit' data-i18n="createBtn">Create account</button>
       <div class='flash' id='sflash'></div>

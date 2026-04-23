@@ -3,7 +3,7 @@ sqlalchemy
 #postgresql
 psycopg2-binary
 passlib[bcrypt]
-#jose
+jose
 python-jose[cryptography]
 langchain 
 wikipedia 

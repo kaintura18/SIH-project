@@ -188,10 +188,10 @@
     <div class="input-box">
         <form id="costForm">
             <label for="harvestType">Harvesting Type</label>
-            <input type="text" id="harvestType" required>
+            <input type="text" id="harvestType" name="harvesting_type" required autocomplete="off">
 
             <label for="location">Location</label>
-            <input type="text" id="location" required>
+            <input type="text" id="location" name="location" required autocomplete="address-level2">
 
             <button type="submit">Submit</button>
         </form>
@@ -208,8 +208,8 @@
         <pre id="jsonOutput"></pre>
 
         <div class="buttons">
-            <button class="next" onclick="window.location.href='another-feature.html'">Go to Next Feature</button>
-            <button class="back" onclick="window.location.href='previous.html'">Back</button>
+            <button class="next" onclick="window.location.href='fetaure4.html'">Go to Next Feature</button>
+            <button class="back" onclick="window.location.href='feature2.html'">Back</button>
         </div>
     </div>
 
